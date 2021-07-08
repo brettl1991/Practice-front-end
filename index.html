@@ -15,13 +15,25 @@ the browser reads that HTML document to constract a DOM and render teh page.  --
 
 <head>
   <title>Not my first web page</title>
+  <style>
+    img {
+      width: 100px;
+      border-radius: 50px;
+      float: left;
+      margin-right: 10px;
+    }
+
+    .username {
+      font-weight: bold;
+    }
+  </style>
 </head>
 
 <body>
   <img src="images/pexels-beach-tropical-scene-free-stock-photo.jpg">
   <!--img element cant have any child element-->
-  <p>@agnesbrettl</p>
-  <p>I love to tech HTML</p>
+  <p class="username">@agnesbrettl</p>
+  <p>I love to teach HTML</p>
 </body>
 
 </html>
